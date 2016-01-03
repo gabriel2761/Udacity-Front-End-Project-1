@@ -1,12 +1,12 @@
 
+* { border: 1px solid; }
+
 body {
   font-family: sans-serif;
   font-family: 'Lato', sans-serif;
   color: #747704;
   font-weight: 300;
 }
-
-/* Heading */
 
 .text-muted {
   color: #bcbbbb;
@@ -16,20 +16,70 @@ body {
   font-weight: 100;
 }
 
-
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-
+.fill-column {
+  height: auto;
+  width: 100%;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+/* Heading */
 
+header {
+  border: red 2px solid;
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+.header-content {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
 
+.logo {
+  margin: 10px 0;
+  height: 80%;
+  width: auto;
+}
+
+.header-content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header-content h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Main content */
+
+.project {
+  color: red;
+  width: 50%;
+}
+
+/* Small devices (tablets) */
+@media (min-width: 768px) {
+  .header-content h1 {
+
+  }
+
+  .project {
+    color: blue;
+  }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 992px) {
+  .project {
+    color: green;
+    width: 33.33%;
+  }
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 1200px) {
+  .project {
+    color: purple;
+  }
 }
