@@ -1,11 +1,16 @@
 
-* { border: 1px solid; }
+/** { border: 1px solid; }*/
 
 body {
   font-family: sans-serif;
   font-family: 'Lato', sans-serif;
   color: #747704;
   font-weight: 300;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .text-muted {
@@ -23,21 +28,16 @@ body {
 
 /* Heading */
 
-header {
-  border: red 2px solid;
-}
-
 .header-content {
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   text-align: right;
 }
 
 .logo {
-  margin: 10px 0;
-  height: 80%;
+  height: 90%;
   width: auto;
 }
 
@@ -60,21 +60,45 @@ header {
 
 /* Small devices (tablets) */
 @media (min-width: 768px) {
-  .header-content h1 {
+  .header-content {
+    height: 80px;
+  }
 
+  .header-content h1 {
+    font-size: 46px;
+    margin: 0;
+  }
+
+  .header-content h4 {
+    font-size: 26px;
+    margin: 0;
   }
 
   .project {
     color: blue;
   }
+
 }
 
 /* Medium devices (desktops) */
 @media (min-width: 992px) {
+  .header-content {
+    height: 116px;
+  }
+
+  .header-content h1 {
+    font-size: 56px;
+  }
+
+  .header-content h4 {
+    font-size: 36px;
+  }
+
   .project {
     color: green;
     width: 33.33%;
   }
+
 }
 
 /* Large devices (large desktops) */
