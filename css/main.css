@@ -1,0 +1,67 @@
+
+html {
+  color: #777;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-title {
+  text-align: right;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  letter-spacing: 2.3px;
+}
+
+.header-title p {
+  margin: 3px;
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: 2.4px;
+  margin: 0;
+}
+
+.header-content {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: block;
+  margin: 30px auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.featured-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.featured-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  width: 31%;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h3 {
+  text-align: center;
+}
+
+.project a {
+
+}
