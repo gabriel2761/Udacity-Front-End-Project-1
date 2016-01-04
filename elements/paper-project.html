@@ -7,6 +7,8 @@
     <style include="paper-material">
       :host {
         display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
       }
 
       iron-image {
@@ -14,9 +16,21 @@
         --iron-image-width: 100%;
       }
 
+      .project-content {
+        padding-top: 8px;
+        padding-bottom: 12px;
+      }
+
+      h3 {
+        margin: 0;
+        color:
+      }
+
     </style>
     <iron-image src="{{image}}"></iron-image>
-    <h1>{{title}}</h1>
+    <div class="project-content">
+      <h3>{{title}}</h3>
+    </div>
   </template>
   <script>
     Polymer({
