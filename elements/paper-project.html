@@ -1,5 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-material/paper-material.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
 
 <dom-module id="paper-project">
   <template>
@@ -7,8 +8,14 @@
       :host {
         display: block;
       }
-    </style>
 
+      iron-image {
+        width: 100%;
+        --iron-image-width: 100%;
+      }
+
+    </style>
+    <iron-image src="{{image}}"></iron-image>
     <h1>{{title}}</h1>
   </template>
   <script>
@@ -16,6 +23,10 @@
       is: "paper-project",
       properties: {
         title: {
+          type: String,
+          value: ""
+        },
+        image: {
           type: String,
           value: ""
         },
