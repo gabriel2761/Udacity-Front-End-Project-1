@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "~1.2.3"
+    "polymer": "~1.2.3",
+    "paper-card": "PolymerElements/paper-card#~1.0.8"
   }
 }
