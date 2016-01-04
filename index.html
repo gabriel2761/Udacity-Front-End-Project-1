@@ -5,14 +5,29 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <link rel="import" href="elements/project-card.html">
+  <link rel="import" href="bower_components/paper-card/paper-card.html">
+  <link rel="import" href="./bower_components/paper-button/paper-button.html">
+
+
+
   <link rel="stylesheet" href="css/main.css">
   <title>Udacity Portfolio</title>
 </head>
 
 <body>
   <main class="container">
+
+
+
+    <project-card image="http://placehold.it/230x200"
+    title="This is the title"></project-card>
+
     <header>
       <div class="header-content">
         <img class="logo" src="https://placehold.it/200x200" alt="udacity logo">
@@ -42,9 +57,15 @@
     </div>
 
     <div class="row text-center">
+
       <section class="project col-xs-6 col-sm-4">
-        <img class="fill-column img-responsive text-uppercase" src="http://placehold.it/230x200" alt="project1 image" />
-        <h3>Project1</h3>
+        <project-card image="http://placehold.it/230x200"
+        title="This is the title"></project-card>
+      </section>
+
+      <section class="project col-xs-6 col-sm-4">
+        <img class="fill-column img-responsive text-uppercase" src="http://placehold.it/230x200" alt="project2 image" />
+        <h3>Project2</h3>
         <p>Link to project</p>
       </section>
 

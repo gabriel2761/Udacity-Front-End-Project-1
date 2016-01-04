@@ -1,0 +1,42 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-material/paper-material.html">
+
+
+<dom-module id="project-card">
+  <template>
+    <style include="paper-material">
+      :host {
+        display: block;
+        background-color: #fff;;
+      }
+
+      iron-image {
+        width: 100%;
+        --iron-image-width: 100%;
+      }
+
+    </style>
+    <iron-image src="{{image}}"></iron-image>
+    <h3>{{title}}</h3>
+  </template>
+  <script>
+    Polymer({
+      is: "project-card",
+      properties: {
+        elevation: {
+          type: Number,
+          value: 1,
+          reflectToAttribute: true
+        },
+        title: {
+          type: String,
+          value: ""
+        },
+        image: {
+          type: String,
+          value: "http://placehold.it/230x200",
+        }
+      }
+    });
+  </script>
+</dom-module>

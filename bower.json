@@ -1,0 +1,20 @@
+{
+  "name": "Nanodegree-project-1",
+  "homepage": "https://github.com/gabriel2761/Udacity-Front-End-Project-1",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.2.3",
+    "paper-card": "PolymerElements/paper-card#~1.0.8",
+    "paper-button": "PolymerElements/paper-button#~1.0.11"
+  }
+}
