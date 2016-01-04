@@ -13,17 +13,8 @@ hr {
   margin-bottom: 10px;
 }
 
-.text-muted {
-  color: #bcbbbb;
-}
-
-.text-thin {
-  font-weight: 100;
-}
-
-.fill-column {
-  height: auto;
-  width: 100%;
+h1 {
+  font-size: 36px;
 }
 
 /* Heading */
@@ -42,7 +33,6 @@ hr {
 }
 
 .header-content h1 {
-  font-size: 36px;
   margin: 0;
 }
 
@@ -106,4 +96,18 @@ hr {
   .project {
     color: purple;
   }
+
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.fill-column {
+  height: auto;
+  width: 100%;
 }
