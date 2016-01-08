@@ -66,6 +66,10 @@ hr {
     font-size: 26px;
     margin: 0;
   }
+
+  .project {
+    width: 33.333%;
+  }
 }
 
 /* Medium devices (desktops) */
