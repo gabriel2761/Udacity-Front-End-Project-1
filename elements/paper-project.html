@@ -23,13 +23,31 @@
 
       h3 {
         margin: 0;
-        color:
+        color: #666;
+      }
+
+      p {
+        margin-top: 8px;
+        margin-bottom: 0;
+      }
+
+      @media (min-width: 1200px) {
+        .project-content {
+          padding-top: 16px;
+          padding-bottom: 16px;
+        }
+
+        h3 {
+          font-size: 30px;
+        }
+
       }
 
     </style>
     <iron-image src="{{image}}"></iron-image>
     <div class="project-content">
       <h3>{{title}}</h3>
+      <p>github.com/gabriel2761</p>
     </div>
   </template>
   <script>

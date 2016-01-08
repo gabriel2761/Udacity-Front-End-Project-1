@@ -1,6 +1,4 @@
 
-/** { border: 1px solid; }*/
-
 body {
   font-family: sans-serif;
   font-family: 'Lato', sans-serif;
@@ -50,7 +48,6 @@ hr {
 /* Main content */
 
 .project {
-  color: red;
   width: 50%;
 }
 
@@ -87,5 +84,4 @@ hr {
 }
 
 /* Large devices (large desktops) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) { }
