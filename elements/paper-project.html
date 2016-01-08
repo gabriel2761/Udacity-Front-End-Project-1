@@ -55,18 +55,22 @@
     <iron-image src="{{image}}"></iron-image>
     <div class="project-content">
       <h3>{{title}}</h3>
-      <p>github.com/gabriel2761</p>
+      <p>{{link}}</p>
     </div>
   </template>
   <script>
     Polymer({
       is: "paper-project",
       properties: {
+        image: {
+          type: String,
+          value: ""
+        },
         title: {
           type: String,
           value: ""
         },
-        image: {
+        link: {
           type: String,
           value: ""
         },
