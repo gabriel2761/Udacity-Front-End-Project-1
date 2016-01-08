@@ -19,7 +19,7 @@
   <main class="container">
     <header>
       <div class="header-content">
-        <img class="logo" src="https://placehold.it/200x200" alt="udacity logo">
+        <img class="logo" src="https://placehold.it/60x60" alt="Page logo">
         <div class="header-title">
           <h1 class="text-thin">Gabriel Mojica</h1>
           <h4>Front-end Ninja</h4>
@@ -35,7 +35,20 @@
 
     <div class="row">
       <div class="col-sm-12">
-        <img class="fill-column" src="http://placehold.it/800x350" alt="main image">
+        <picture>
+          <source class="img-responsive" media="(min-width: 992px)"
+            srcset="img/lg/rain.jpg"
+            srcset="img/lg/rain-2x.jpg">
+          <source class="img-responsive" media="(min-width: 768px)"
+            srcset="img/md/rain.jpg, 
+                    img/md/rain-2x.jpg 2x">
+          <source class="img-responsive"
+            srcset="img/sm/rain.jpg, 
+                    img/sm.rain-2x.jpg 2x">
+          <img class="img-responsive" 
+              src="img/lg/rain.jpg" 
+              alt="PlaceHolder image for main background">
+        </picture>
       </div>
     </div>
 
@@ -47,15 +60,16 @@
 
     <div class="row text-center">
       <section class="project col-xs-6 col-sm-4">
-        <paper-project title="Project1" image="http://placehold.it/400x330"></paper-project>
+        <paper-project title="Project1" 
+          image="https://placehold.it/400x330"></paper-project>
       </section>
 
       <section class="project col-xs-6 col-sm-4">
-        <paper-project title="Project1" image="http://placehold.it/400x330"></paper-project>
+        <paper-project title="Project1" image="https://placehold.it/400x330"></paper-project>
       </section>
 
       <section class="project col-xs-6 col-sm-4">
-        <paper-project title="Project1" image="http://placehold.it/400x330"></paper-project>
+        <paper-project title="Project1" image="https://placehold.it/400x330"></paper-project>
       </section>
     </div>
   </main>

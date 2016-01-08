@@ -22,11 +22,6 @@ hr {
   font-weight: 100;
 }
 
-.fill-column {
-  height: auto;
-  width: 100%;
-}
-
 /* Heading */
 
 .header-content {
@@ -74,11 +69,6 @@ hr {
     font-size: 26px;
     margin: 0;
   }
-
-  .project {
-    color: blue;
-  }
-
 }
 
 /* Medium devices (desktops) */
@@ -94,17 +84,8 @@ hr {
   .header-content h4 {
     font-size: 36px;
   }
-
-  .project {
-    color: green;
-    width: 33.33%;
-  }
-
 }
 
 /* Large devices (large desktops) */
 @media (min-width: 1200px) {
-  .project {
-    color: purple;
-  }
 }
