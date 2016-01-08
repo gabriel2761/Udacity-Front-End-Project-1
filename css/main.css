@@ -66,10 +66,6 @@ hr {
     font-size: 26px;
     margin: 0;
   }
-
-  .project {
-    width: 33.333%;
-  }
 }
 
 /* Medium devices (desktops) */
@@ -85,6 +81,10 @@ hr {
   .header-content h4 {
     font-size: 36px;
   }
+
+  .project {
+    width: 33.333%;
+  }s
 }
 
 /* Large devices (large desktops) */
